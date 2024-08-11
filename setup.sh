@@ -1,0 +1,1 @@
+xdg-mime default dolphin.desktop inode/directory

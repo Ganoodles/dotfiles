@@ -1,0 +1,6 @@
+font="Fira Sans 12"
+background-color=#101010
+border-color=#404040
+border-radius=3
+default-timeout=5000
+padding=15

@@ -1,11 +1,11 @@
-/* set style colors */
+/* set style colors 
 
 @define-color base #1e1e2e;
 @define-color mantle #181825;
 @define-color crust #11111b;
-@define-color text #11111B;
+@define-color text #11111B; 
 
-/* styles */
+*/
 
 * {
     border: none;
@@ -17,6 +17,11 @@
     font-weight: bold;
 }
 
+#waybar { 
+    background-color: #08080c; 
+    color: #ffffff; 
+  }
+
 #workspaces button {
     padding: 0 7px;
     padding-top: 2px;
@@ -26,7 +31,7 @@
 }
 
 #workspaces button.active {
-    background: @base;
+    background: #1e1e2e;
     border-bottom: 3px solid white;
 }
 
@@ -35,7 +40,7 @@
 }
 
 tooltip {
-  background: @crust;
+  background: #11111b;
   border-radius: 3px;
   border: 1px solid rgba(133, 133, 133, 0.5);
 }
